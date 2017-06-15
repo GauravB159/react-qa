@@ -4,7 +4,6 @@ export default {
     "ui:emptyValue": "",
     "ui:placeholder": "What...",
     "classNames": "question",
-    "ui:disabled": true,
     "ui:options": {
       "label": false
     }
