@@ -12,9 +12,9 @@ class Card extends Component {
         <Form schema={jsonschema}
           uiSchema={uischema}
           showErrorList={false}>
-          <div>
-            <button type="button" className="submit">✔</button>
-            <button type="button" className="cancel">❌</button>
+          <div className="form-btn">
+            <button type="button" className="negative btn">CLEAR</button>
+            <button type="button" className="postive btn">SAVE</button>
           </div>
         </Form>
       </div>

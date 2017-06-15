@@ -9,13 +9,15 @@ export default {
       "type": "string",
       "title": "Question",
       "minLength": 10,
-      "maxLength": 12
+      "maxLength": 12,
+      "displayLabel": false
     },
     "answer": {
       "type": "string",
       "title": "Answer",
       "minLength": 10,
-      "maxLength": 100
+      "maxLength": 100,
+      "displayLabel": false
     }
   }
 }

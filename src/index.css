@@ -1,23 +1,72 @@
 @import url(https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css);
 
 body {
-  margin: 0;
+  margin: 20px 0;
   padding: 0;
   font-family: sans-serif;
 }
 
-label {
-  display: none;
-}
-
 .card {
-  border: 1px solid #333;
   width: 400px;
   margin: 0 auto;
   padding: 10px;
+  border: 1px solid rgba(80, 80, 80, 0.5);
+  border-radius: 4px;
 }
 
 .form-control, .form-control:focus {
   border: none;
   box-shadow: none;
+}
+
+.form-btn {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.btn {
+  
+}
+
+.btn:hover {
+  
+}
+
+button.postive {
+  color: white;
+  background-color: deepskyblue;
+}
+
+button.postive:hover {
+  color: white;
+}
+
+button.negative {
+  margin-right: 5px;
+  background-color: transparent;
+  transition: all 0.25s ease-in-out;
+}
+
+button.negative:hover {
+  border: 1px solid #888;
+}
+
+button.negative:focus, button.negative:active {
+  box-shadow: none;
+}
+
+button.positive:focus, button.positive:active {
+  box-shadow: none;
+  color: white;
+}
+
+.form-control[disabled], .form-control[readonly], fieldset[disabled] .form-control {
+    background-color: white;
+    cursor: default;
+    opacity: 1;
+}
+
+.question > input {
+  font-size: 20pt;
+  font-weight: bold;
 }
